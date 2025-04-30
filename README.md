@@ -1,9 +1,9 @@
 # IMPACTS-Elevated-Convection-Analysis
 This repository contains the code used to study elevated potential instability (EPI) within wintertime extratropical cyclones that were sampled during the IMPACTS field campaign. Follow the steps below:
 1) Create the files for the statistical analysis (Folder: File_Creation)
-   - EPI_IdentPT1_CrossSectionCalculations: Create vertical cross sections of equivalent potential temperature w.r.t ice and water using HRRR initialization data along an aircraft track
+   - EPI_IdentPT1_CrossSectionCalculations: Create vertical cross sections of equivalent potential temperature w.r.t ice and water using HRRR initialization data along ER-2
    - EPI_IdentPT2_LayerIdent: Identify layers of EPI w.r.t water or ice
-   - LowRel_PGrad_FileCreater: Transform aircraft track from Latitude/longitude coordinates to low relative coordinates and calculate cyclone pressure gradient
+   - LowRel_PGrad_FileCreater: Transform ER-2 track from Latitude/longitude coordinates to low relative coordinates and calculate cyclone pressure gradient
    - ProcessingCRSVrData: Process W-band Vr data following Lundstrom et al. 2025b
    - Vr-SaveFilesByCategories: Create files of Vr within specific layers
 3) Statistical Analysis of hydrometeor vertical motions and EPI characteristics
